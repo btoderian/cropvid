@@ -24,6 +24,9 @@ call "%CONDA_PATH%" run -n cropvid --no-capture-output python "%SCRIPT_PATH%" "%
 echo.
 echo %OUT_FILE%
 echo.
+
+endlocal
 pause
+
 
 
